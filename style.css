@@ -1,0 +1,34 @@
+body {
+ min-height : 100vh;
+ display: flex;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    height: 900px;
+    width: 900px;
+}
+div#row {
+    display : flex;
+    flex-direction: column;
+   
+}
+
+div#column0 {
+    display: flex;
+
+}
+
+.square {
+    height: 10px;
+    width: 10px;
+    background-color: #555;
+    margin: 2px;
+}
+
+div:hover {
+    background-color: white;
+}
+
+
