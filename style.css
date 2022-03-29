@@ -1,13 +1,27 @@
 body {
  min-height : 100vh;
  display: flex;
+ flex-direction: column;
+
 }
 
 #container {
     display: flex;
     align-items: center;
-    height: 900px;
-    width: 900px;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+
+ 
+    
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+  
 }
 div#row {
     display : flex;
@@ -15,20 +29,14 @@ div#row {
    
 }
 
-div#column0 {
-    display: flex;
-
-}
 
 .square {
     height: 10px;
     width: 10px;
-    background-color: #555;
-    margin: 2px;
+    background-color: rgb(63, 63, 63);
+   
 }
 
-div:hover {
-    background-color: white;
-}
-
-
+button {
+    margin: 50px;
+} 
