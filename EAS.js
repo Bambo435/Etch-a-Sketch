@@ -4,7 +4,7 @@ let container = document.querySelector('#container');
 function makeGrid(num) {
   for (i= 0; i < num; i++) {
     let div = document.createElement('div');
-    div.id = 'row';
+    div.classList.add('row')
     container.appendChild(div);
     for (j = 0; j < num; j++) {
       let div2 = document.createElement('div'); // As well as appending a set of 16 divs onto a row, we also attach an event listener to each square so that every square will change colour.
