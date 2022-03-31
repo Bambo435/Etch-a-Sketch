@@ -20,6 +20,7 @@ function makeGrid(num) {
 
 makeGrid(50); // default number of squares that will appear upon loading page
 
+// Erasing all pixels by replacing the content with an empty textbox, then just calling makeGrid to replace with a fresh etch-a-sketch
 function reset() {
   let input = prompt('How many squares? (50 = 50x50)', '');
   const divs = document.getElementById('container');
@@ -28,7 +29,7 @@ function reset() {
 };
 
 
-
+// Referencing the button id and adding the event listener to call on reset() when clicked.
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', reset); 
 

@@ -13,11 +13,14 @@ body {
     max-height: 50vh;   
     max-width: 50vh;
     margin: auto;
-
- 
-    
+  
 }
 
+div#text {
+    font-size: 24px;
+    color: black;
+    align-self: center;
+}
 
 
 div.row {
